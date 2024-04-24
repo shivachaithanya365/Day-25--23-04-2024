@@ -1,64 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Gradiant</title>
     <style>
-        div.rainbow1{
+        div.rainbow1 {
             background-color: red;
-            height: 100px; width: 60%;
+            height: 100px;
+            width: 60%;
             position: relative;
-            top: 50px; left: 70px;
-            background-image: linear-gradient(to right, violet,indigo,rgb(2, 143, 252),green,yellow,orange,red );
+            top: 0px;
+            left: 70px;
+            background-image: linear-gradient(to right, violet, indigo, rgb(2, 143, 252), green, yellow, orange, red);
         }
-        div.rainbow2{
-            background-color: red;
-            height: 300px; width: 300px;
-            position: absolute;
-            top: 200px; left: 70px;
-            background-image: radial-gradient(violet,indigo,rgb(2, 143, 252),green,yellow,orange,red );
-        }
-        div.rainbow3{
-            background-color: red;
-            height: 300px; width: 300px;
-            position: absolute;
-            top: 200px; left: 420px;
-            background-image: conic-gradient(violet,indigo,rgb(2, 143, 252),green,yellow,orange,red );
-        }
-        div.rainbow4{
-            background-color: red;
-            height: 300px; width: 300px;
-            position: absolute;
-            top: 200px; left: 820px;
-            background-image: conic-gradient(red 0deg, red 60deg, yellow 60deg, yellow 120deg, green 120deg, green 180deg, blue 180deg,blue 240deg, orange 240deg, orange 300deg, black 300deg);
-            border-radius: 50%}
 
-        div.rainbow5{
+        div.rainbow2 {
             background-color: red;
-            height: 300px; width: 1000px;
+            height: 300px;
+            width: 300px;
             position: absolute;
-            top: 600px; left: 70px;
+            top: 280px;
+            left: 70px;
+            background-image: radial-gradient(violet, indigo, rgb(2, 143, 252), green, yellow, orange, red);
+        }
+
+        div.rainbow3 {
+            background-color: red;
+            height: 300px;
+            width: 300px;
+            position: absolute;
+            top: 280px;
+            left: 450px;
+            background-image: conic-gradient(violet, indigo, rgb(2, 143, 252), green, yellow, orange, red);
+        }
+
+        div.rainbow4 {
+            background-color: red;
+            height: 300px;
+            width: 300px;
+            position: absolute;
+            top: 280px;
+            left: 860px;
+            background-image: conic-gradient(red 0deg, red 60deg, yellow 60deg, yellow 120deg, green 120deg, green 180deg, blue 180deg, blue 240deg, orange 240deg, orange 300deg, black 300deg);
+            border-radius: 50%
+        }
+
+        div.rainbow5 {
+            background-color: red;
+            height: 300px;
+            width: 1000px;
+            position: absolute;
+            top: 650px;
+            left: 70px;
             background-image: repeating-radial-gradient(rgb(51, 156, 236) 10%, rgb(40, 86, 187) 15%, rgb(15, 15, 136) 25%);
         }
-
+        p{
+            font: 2em sans-serif;
+        }
+        div.pie1{
+            background-color: red;
+            width: 50px; height: 50px;
+            position: absolute;
+            left: 1200px; top: 250px;
+        }
+        div.pie2{
+            background-color: yellow;
+            width: 50px; height: 50px;
+            position: absolute;
+            left: 1200px; top: 320px;
+        }
+        div.pie3{
+            background-color: green;
+            width: 50px; height: 50px;
+            position: absolute;
+            left: 1200px; top: 390px;
+        }
+        div.pie4{
+            background-color: blue;
+            width: 50px; height: 50px;
+            position: absolute;
+            left: 1200px; top: 460px;
+        }
+        div.pie5{
+            background-color: orange;
+            width: 50px; height: 50px;
+            position: absolute;
+            left: 1200px; top: 530px;
+        }
+        div.pie6{
+            background-color: black;
+            width: 50px; height: 50px;
+            position: absolute;
+            left: 1200px; top: 600px;
+        }
     </style>
 </head>
+
 <body>
+    <p style="margin-left: 350px;">Linear gradiant rainbow</p>
+
+
     <div class="rainbow1">
 
     </div>
+    <p style="margin-left: 40px;">Linear gradiant rainbow</p>
+
     <div class="rainbow2">
 
     </div>
+    <p style="margin-left: 430px; margin-top: -70px;">Radial gradiant rainbow</p>
+
     <div class="rainbow3">
 
     </div>
+    <p style="margin-left: 930px; margin-top: -65px;">Pie Chart</p>
+
     <div class="rainbow4">
 
     </div>
+    <span style="position: absolute; left: 1260px; top: 270px;">Telugu</span>
+    <div class="pie1"></div>
+    <span style="position: absolute; left: 1260px; top: 340px;">Hindi</span>
+    <div class="pie2"></div>
+    <span style="position: absolute; left: 1260px; top: 410px;">English</span>
+    <div class="pie3"></div>
+    <span style="position: absolute; left: 1260px; top: 480px;">Maths</span>
+    <div class="pie4"></div>
+    <span style="position: absolute; left: 1260px; top: 550px;">Science</span>
+    <div class="pie5"></div>
+    <span style="position: absolute; left: 1260px; top: 620px;">Social</span>
+    <div class="pie6"></div>
+   
+    <p style="margin-top: 325px; margin-left: 250px;">Water Ripple - repeating radial gradiant</p>
     <div class="rainbow5">
 
     </div>
 </body>
+
 </html>
